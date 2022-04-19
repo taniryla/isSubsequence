@@ -63,11 +63,15 @@ console.log(isSubsequence('sing', 'sting'));
 
 
 // 13. What about examples with empty inputs? Any other edge case examples? What examples with invalid inputs?
+
+
 // 14. Progress to more complex examples. What is your updated plan here to find a solution?
 // 15. If you still cannot solve the proposed problem, try to solve first some related problem. Could you imagine a more accessible related problem? A more general problem? A more special problem? An analogous problem? Could you solve a part of the problem? Keep only a part of the data inputs, drop the other part; how far is the unknown then determined, how can it vary? Could you derive something useful from the data? Could you think of other data appropriate to determine the unknown? Could you change the unknown or the data, or both if necessary, so that the new unknown and the new data are nearer to each other? Did you use all the data? Did you use the whole of the data inputs? Have you taken into account all essential notions involved in the problem?
 
 // Step Three (Solve). Carry out your plan of the solution and check each one of your steps in pseudocode.
 // 16.  Can you see clearly that the step is correct?
+
+pseudocode below
 
 // IV. 	Step Four (Check). Examine the solution obtained and refactor.
 // 17.  Can you check your result?
@@ -78,6 +82,11 @@ console.log(isSubsequence('sing', 'sting'));
 // 22.  Can you improve the performance?
 // 23.   How have other people solved this problem?
 
-function isSubsequence() {
+function isSubsequence(str1, str2) {
+  // set up an empty object into a variable
+// split both strings into an array of characters and lower case it
+// iterate through the first arr1 (for of loop)
+// iterate through the second arr2 (for of loop)
+// iterate with a for (let key in arr1) loop and use key to find if the arrays match
 
 }
