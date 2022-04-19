@@ -84,17 +84,13 @@ function isSubsequence(str1, str2) {
   // split both strings into an array of characters and lower case it
   let arr1 = str1.toLowerCase().split("");
   let arr2 = str2.toLowerCase().split("");
-  console.log(arr1);
   // iterate through the first arr1 (for of loop)
   // we want a key:value pair and add it to the object obj1
 
-  // for (let val of arr1) {
-  //   if () {
-  //     obj1[val] = 1;
-  //     console.log(obj1[val]);
-  //   } else {
-  //     obj1[val] += 1;
-  //   }
+  for (let val of arr1) {
+    obj1[val] = (obj1[val] || 0) + 1;
+  }
+  // iterate through the second arr2 (for of loop)
+
+  // iterate with a for (let key in arr1) loop and use key to find if the arrays match
 }
-// iterate through the second arr2 (for of loop)
-// iterate with a for (let key in arr1) loop and use key to find if the arrays match
