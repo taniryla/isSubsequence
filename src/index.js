@@ -30,3 +30,5 @@
 // 21.  Can you make the code DRYer and refactor?
 // 22.  Can you improve the performance?
 // 23.   How have other people solved this problem?
+
+function isSubsequence() {}
