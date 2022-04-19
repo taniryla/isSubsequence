@@ -79,7 +79,12 @@ console.log(isSubsequence("sing", "sting"));
 
 function isSubsequence(str1, str2) {
   // set up an empty object into a variable
+  let obj1 = {};
+  let obj2 = {};
   // split both strings into an array of characters and lower case it
+  let arr1 = str1.toLowerCase().split("");
+  let arr2 = str2.toLowerCase().split("");
+  console.log(arr2);
   // iterate through the first arr1 (for of loop)
   // iterate through the second arr2 (for of loop)
   // iterate with a for (let key in arr1) loop and use key to find if the arrays match
